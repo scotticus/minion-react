@@ -13,11 +13,19 @@ Along the way, I'll be learning a bunch of new skills.
 ##The Plan
 
 1. Get the basics up and running.
+
   a. Build system
+  
   b. Some kind of API server to deliver the JSON data
+  
   c. Integrated unit testing
 
 2. Encounter View
+  
   a. Allow the user to add actors to an encounter
-    i. Basic info: Name, Type, Initiative Modifier, Initiative, AC
-  b. Allow the user to edit the actors so if initiaitve order changes, it can be reflected in the app.
+  
+  b. Basic info: Name, Type, Initiative Modifier, Initiative, AC
+  
+  c. Automatically reorder the list in initiative order
+  
+  d. Allow the user to edit the actors so if initiaitve order changes, it can be reflected in the app.
