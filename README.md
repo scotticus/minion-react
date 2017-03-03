@@ -20,12 +20,17 @@ Along the way, I'll be learning a bunch of new skills.
   
   c. Integrated unit testing
 
-2. Encounter View
+2. Monster Library
   
-  a. Allow the user to add actors to an encounter
+  a. Get a list view up and running that will read in the JSON data and display the monster library.
+
+  b. Incorporate a quick search feature to filter on the monster names
+
+3. Encounter View
+  
+  a. Allow the user to add/remove/edit actors in an encounter (CRUD)
   
   b. Basic info: Name, Type, Initiative Modifier, Initiative, AC
   
   c. Automatically reorder the list in initiative order
   
-  d. Allow the user to edit the actors so if initiaitve order changes, it can be reflected in the app.
