@@ -1,4 +1,4 @@
-#Minion
+# Minion
 
 Minion is a tabletop RPG (D&D) table-side helper. It's not intended to replace sitting at the table with your friends or facilitate playing online; it's just a tool to help keep track of things at the table.
 
@@ -10,7 +10,7 @@ Along the way, I'll be learning a bunch of new skills.
 
 ---
 
-##The Plan
+## The Plan
 
 1. Get the basics up and running.
 
