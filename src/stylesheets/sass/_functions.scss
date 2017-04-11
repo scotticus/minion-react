@@ -1,0 +1,21 @@
+//----------------------------------------------------------
+// `Sass Functions
+//----------------------------------------------------------
+
+// @function color($key) {
+//   @if map-has-key($colors, $key) {
+//     @return map-get($colors, $key);
+//   }
+//  
+//   @warn "Unknown `#{$key}` in $colors.";
+//   @return null;
+// }
+
+@function font($key) {
+  @if map-has-key($font-stack, $key) {
+    @return map-get($font-stack, $key);
+  }
+
+  @warn "Unknown '#{key}' in $colors.";
+  @return null;
+}

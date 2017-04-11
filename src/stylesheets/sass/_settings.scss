@@ -1,0 +1,28 @@
+@import "functions";
+
+$font-stack: (
+  heading: #{'Avenir Next', serif},
+  title: #{'Avenir Next', serif},
+  serif: #{'Avenir Next', serif},
+  sans: #{'Avenir Next', sans-serif},
+  code: #{'source code pro', monospace}
+);
+
+
+// Typography
+$base-font-size: 16px;
+$base-line-height: 24px;
+$font-family-sans: font(sans);
+$font-family-serif: font(serif);
+
+// Color Pallette
+$color-brickRed: #58180D;
+$color-gold: #c9ad6a;
+
+// Spacing
+$standard-height: 60px;
+$standardHeight: $standard-height;
+
+$gutter: $standard-height/2;
+$gutter-half: $gutter/2;
+$gutter-quarter: $gutter/4;

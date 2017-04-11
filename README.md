@@ -34,3 +34,7 @@ Along the way, I'll be learning a bunch of new skills.
   
   c. Automatically reorder the list in initiative order
   
+---
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+

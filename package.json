@@ -1,0 +1,32 @@
+{
+  "name": "minion-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^4.0.0",
+    "redux": "^3.6.0",
+    "redux-promise": "^0.5.3"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "0.9.4"
+  },
+  "scripts": {
+    "build-css": "node-sass src/stylesheets/sass -o src/stylesheets/css",
+    "watch-css": "npm run build-css && node-sass src/stylesheets/sass -o src/stylesheets/css --watch",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

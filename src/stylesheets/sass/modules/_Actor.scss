@@ -1,0 +1,48 @@
+
+.stat {
+  display: flex;
+  align-items: baseline;
+  font-family: font(sans);
+  font-feature-settings: "lnum" 1;
+  line-height: 1.5em;
+
+  & + & {
+    margin-left: 2em;
+  }
+}
+
+.label {
+  font-size: .8em;
+  margin-right: .5em;
+}
+
+.actor {
+  background-color: #EEE5CE;
+  display: flex;
+  height: $standard-height;
+  align-items: center;
+  padding: 0 1em;
+  text-shadow: 1px 1px 0 rgba(white, 0.5);
+
+  & + & {
+    border-top: 1px solid rgba($color-brickRed, 0.15);
+  }
+
+  &__name {
+    color: $color-brickRed;
+    font-family: font(heading);
+    font-size: 18px;
+  }
+
+  &__challengeRating {
+    margin-left: auto;
+  }
+
+  &__armorClass {
+    color: $color-brickRed;
+
+    .value {
+      font-size: 1.5em;
+    }
+  }
+}
