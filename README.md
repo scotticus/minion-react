@@ -1,3 +1,8 @@
+To get the API up and running:
+
+* Install [json-server](https://github.com/typicode/json-server).
+* Start up json-server on port 8888: `json-server --watch db.json --port 8888`
+
 # Minion
 
 Minion is a tabletop RPG (D&D) table-side helper. It's not intended to replace sitting at the table with your friends or facilitate playing online; it's just a tool to help keep track of things at the table.
