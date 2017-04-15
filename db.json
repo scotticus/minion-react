@@ -1,7 +1,19 @@
 {
-  "encounter" : {
-    "actors" : []
-  },
+  "encounters" : [
+    {
+      "id": 1,
+      "name": "Nightstone: Goblins Ahoy!",
+      "actors" : [
+        {
+          "id": 1,
+          "name": "Acolyte",
+          "armor_class": 10,
+          "challenge": 0.25,
+          "unique": "0"
+        }
+      ]
+    }
+  ],
   "monsters": [
     {
       "id": 1,
