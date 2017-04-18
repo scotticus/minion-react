@@ -6,7 +6,27 @@
       "actors" : [
         {
           "id": 1,
-          "name": "Acolyte",
+          "name": "Goblin",
+          "armor_class": 10,
+          "challenge": 0.25,
+          "unique": "0"
+        },
+        {
+          "id": 2,
+          "name": "Warg",
+          "armor_class": 10,
+          "challenge": 0.25,
+          "unique": "0"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nightstone: Ruined Keep",
+      "actors" : [
+        {
+          "id": 1,
+          "name": "Guard",
           "armor_class": 10,
           "challenge": 0.25,
           "unique": "0"
