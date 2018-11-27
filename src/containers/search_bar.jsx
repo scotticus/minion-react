@@ -10,6 +10,9 @@ export class SearchBar extends Component {
     this.onInputChange = this.onInputChange.bind(this);
     this.onFormSubmit = this.onFormSubmit.bind(this);
   }
+  componentWillMount() {
+    this.props.fetchMonsters('');
+  }
   onInputChange(event) {
     this.props.fetchMonsters(event.target.value);
     this.setState({ term: event.target.value });
